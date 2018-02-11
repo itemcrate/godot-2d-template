@@ -1,15 +1,15 @@
 <div align="center">
-  <h1 align="center">Godot Boilerplate</h1>
-	<p align="center">
-		<strong>A boilerplate project for Godot 3.x, includes a nice baseline to kick-start a 2D project.</strong>
-	</p>
-	<br/>
-  <p align="center" class="fork">
-    <img src="assets/project-icon.png"/>
+    <h1 align="center">Godot Boilerplate</h1>
+    <p align="center">
+        <strong>A boilerplate project for Godot 3.x, includes a nice baseline to kick-start a 2D project.</strong>
     </p>
-  <p align="center">
-    <img src="https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg?style=for-the-badge"/>
-  </p>
+    <br/>
+    <p align="center">
+        <img src="assets/project-icon.png" alt="Item Crate <3 Godot"/>
+    </p>
+    <p align="center">
+        <img src="https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg?style=for-the-badge" alt="From Pittsburgh With Love"/>
+    </p>
 </div>
 
 ## Contents
