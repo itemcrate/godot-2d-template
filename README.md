@@ -5,10 +5,10 @@
 	</p>
 	<br/>
   <p align="center" class="fork">
-    ![Item Crate + Godot](assets/project-icon.png)
+    <img src="assets/project-icon.png"/>
     </p>
   <p align="center">
-    ![Badge](https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg?style=for-the-badge)
+    <img src="https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg?style=for-the-badge"/>
   </p>
 </div>
 
