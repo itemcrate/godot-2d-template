@@ -28,4 +28,4 @@ Some basics to get a 2D project moving quickly:
 `TODO`
 
 ## Author(s)
-[@sprngr](https://github.com/sprngr)
+[sprngr](https://github.com/sprngr)
