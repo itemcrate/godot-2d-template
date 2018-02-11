@@ -1,0 +1,12 @@
+# Godot Imports
+.import
+*.import
+
+# General
+.DS_Store
+._*
+*~
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+logs/
