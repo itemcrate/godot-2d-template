@@ -26,3 +26,6 @@ Some basics to get a 2D project moving quickly:
 
 ## Usage
 `TODO`
+
+## Author(s)
+[sprngr](https://github.com/sprngr)
