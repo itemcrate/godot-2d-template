@@ -16,7 +16,7 @@ config/icon="res://assets/project-icon.png"
 
 [autoload]
 
-Global="*res://autoload/global.gd"
+GameState="*res://autoload/gameState.gd"
 
 [debug]
 

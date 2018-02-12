@@ -2,7 +2,7 @@
 
 [ext_resource path="res://screens/loadingScreen/loadingScreen.gd" type="Script" id=1]
 [ext_resource path="res://screens/title/title.tscn" type="PackedScene" id=2]
-[ext_resource path="res://assets/fonts/LeagueMono-Regular.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://assets/fonts/LeagueMono-Regular.tres" type="DynamicFontData" id=3]
 
 [sub_resource type="Animation" id=1]
 
@@ -31,7 +31,7 @@ use_filter = true
 font_data = ExtResource( 3 )
 _sections_unfolded = [ "Font", "Settings" ]
 
-[node name="loadingScreen" type="ColorRect" index="0"]
+[node name="loadingScreen" type="ColorRect"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -74,9 +74,9 @@ size_flags_horizontal = 1
 size_flags_vertical = 4
 custom_fonts/font = SubResource( 2 )
 custom_colors/font_color = Color( 0.14902, 0.145098, 0.215686, 1 )
-text = "L o a d i n g"
+text = "· · · · · · ·"
 align = 1
-percent_visible = 1.0
+percent_visible = -0.111111
 lines_skipped = 0
 max_lines_visible = -1
 _sections_unfolded = [ "custom_colors", "custom_fonts" ]

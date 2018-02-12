@@ -7,10 +7,18 @@ func _ready():
     # Set a new random seed
     randomize()
 
-    # Set current scene
+    # Get current scene at root, store into memory for use later
     current_scene = get_tree().get_root().get_child(get_tree().get_root().get_child_count() - 1)
 
-func set_scene(scene, preloaded):
+# Loads in provided scene at root, freeing up whatever scene was there
+#
+# scene - PackedScene provided to be loaded in
+#
+# preloaded - Boolean defaulting to false if scene still needs to be loaded
+#                 set true if scene was already loaded
+#
+# Returns nothing
+func set_scene(scene, preloaded = false):
     var new_scene = null
 
     if (!preloaded):

@@ -7,16 +7,19 @@ var next_scene_instance = null
 # Loading Thread
 onready var loading_thread = Thread.new()
 
-# Bootstrap data for the game
+# Bootstrap data for the game, kick off loading screen
 func _ready():
     # Begin loading data
     loading_thread.start(self, "load_data")
 
     # Display loading screen
-    loading_screen()
+    load_next_scene()
 
-    loading_thread.wait_to_finish()
-
+# Loads any specified data, resource, etc.
+#
+# vars - any variables defined for loading purposes, can be left null
+#
+# Returns true
 func load_data(vars):
     # Load resources ahead of time here
     # Like checking and loading player save data
@@ -24,9 +27,14 @@ func load_data(vars):
     print("Loading") # This is literally here so it functions atm
 
     next_scene_instance.is_loading = false
+    
+    return true
 
-func loading_screen():
-    # Create an instance
+# Loads PackedScene stored at next_scene
+#
+# Returns nothing
+func load_next_scene():
+    # Create an instance of next_scene
     next_scene_instance = next_scene.instance()
 
     # Add to scene as child, do not replace current scene yet
