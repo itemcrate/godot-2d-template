@@ -5,7 +5,7 @@
     </p>
     <br/>
     <p align="center">
-        <img src="assets/project-icon.png" alt="Item Crate <3 Godot"/>
+        <img src="https://raw.githubusercontent.com/itemcrate/godot-boilerplate/master/assets/project-icon.png" alt="Item Crate <3 Godot"/>
     </p>
     <p align="center">
         <img src="https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg?style=for-the-badge" alt="From Pittsburgh With Love"/>
