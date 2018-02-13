@@ -32,7 +32,7 @@ func loading_animation():
 # animation - animation that needs to be restarted if loading isn't finished
 #
 # Returns nothing  
-func goto_next_scene(animation):
+func goto_next_scene(animation): 
     if (is_loading):
         anim_player.play(animation)
     else:

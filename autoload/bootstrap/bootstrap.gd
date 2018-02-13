@@ -17,18 +17,16 @@ func _ready():
 
 # Loads any specified data, resource, etc.
 #
-# vars - any variables defined for loading purposes, can be left null
+# userdata - any variables defined for loading purposes, can be left null
 #
-# Returns true
-func load_data(vars):
+# Returns nothing
+func load_data(userdata):
     # Load resources ahead of time here
     # Like checking and loading player save data
 
     print("Loading") # This is literally here so it functions atm
 
-    next_scene_instance.is_loading = false
-    
-    return true
+    call_deferred("loading_finished")
 
 # Loads PackedScene stored at next_scene
 #
@@ -40,3 +38,6 @@ func load_next_scene():
     # Add to scene as child, do not replace current scene yet
     # We need it around to finish the loading thread
     add_child(next_scene_instance)
+
+func loading_finished():
+    next_scene_instance.is_loading = false
