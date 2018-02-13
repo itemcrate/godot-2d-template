@@ -39,5 +39,8 @@ func load_next_scene():
     # We need it around to finish the loading thread
     add_child(next_scene_instance)
 
+# Sets the is_loading var to false in the child scene when Thread is done
+#
+# Returns nothing
 func loading_finished():
     next_scene_instance.is_loading = false
