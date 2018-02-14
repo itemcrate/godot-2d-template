@@ -17,6 +17,7 @@ config/icon="res://assets/project-icon.png"
 [autoload]
 
 GameState="*res://autoload/gameState.gd"
+GameData="*res://autoload/gameData.gd"
 
 [debug]
 

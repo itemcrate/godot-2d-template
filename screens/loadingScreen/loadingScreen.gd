@@ -4,13 +4,11 @@ export (PackedScene) var next_scene
 
 onready var anim_player = get_node("animationPlayer")
 
-var is_loading = true
-
 func _ready():
     # Enable user input
     set_process_input(true)
 
-    # Run animation
+    # Run loading_text animation
     loading_animation()
 
 func _input(event):
@@ -32,8 +30,8 @@ func loading_animation():
 # animation - animation that needs to be restarted if loading isn't finished
 #
 # Returns nothing  
-func goto_next_scene(animation):
-    if (is_loading):
+func goto_next_scene(animation): 
+    if (GameState.get_state() == GameState.LOADING):
         anim_player.play(animation)
     else:
         load_next_scene()
@@ -42,5 +40,5 @@ func goto_next_scene(animation):
 #
 # Returns nothing  
 func load_next_scene():
-    if (!is_loading):
+    if (GameState.get_state() != GameState.LOADING):
         GameState.set_scene(next_scene, true)
