@@ -44,14 +44,14 @@ func loading_thread_fetch_data(userdata):
 
     call_deferred("loading_thread_finished")
 
-# Sets the is_loading var to false in the child scene when Thread is done
+# Sets the global game state to READY when thread is finished
 #
 # Returns nothing
 func loading_thread_finished():
     loading_thread.wait_to_finish()
     GameState.set_state(GameState.READY)
 
-# Starts the loading thread process
+# Starts the loading thread process, sets global game state to LOADING
 #
 # Returns nothing
 func loading_thread_start():    

@@ -24,7 +24,7 @@ func loading_animation():
     anim_player.play("loading_text")
     anim_player.connect("animation_finished", self, "goto_next_scene")
 
-# Checks for loading state, if not loaded it restarts the animation -
+# Checks for LOADING state, if not loaded it restarts the animation -
 #     otherwise it runs load_next_scene
 #
 # animation - animation that needs to be restarted if loading isn't finished
@@ -36,9 +36,9 @@ func goto_next_scene(animation):
     else:
         load_next_scene()
 
-# Checks for loading state, if loaded it sets the next_scene
+# Checks for LOADING state, if READY it sets the next_scene
 #
 # Returns nothing  
 func load_next_scene():
-    if (GameState.get_state() != GameState.LOADING):
+    if (GameState.get_state() == GameState.READY):
         GameState.set_scene(next_scene, true)
