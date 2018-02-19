@@ -21,8 +21,8 @@ This project was originally intended to be a personal starter for working on God
 * Basic global game state & scene switcher
 * Global game data dictionary to track information
 * Bootstrap (Main Scene) scene with stubbed out resource loading thread.
-* Loading scene that doesn't look that bad. (Uses League Mono - Regular)
-![Loading Screen gif](https://i.gyazo.com/2f0c93ac5a48be83ed34da3db4dfe782.gif)
+* Loading scene that doesn't look half bad. (Uses League Mono - Regular)
+![Loading Screen gif](https://i.gyazo.com/de6f097cad7180a2c6cc24560cb02356.gif)
 
 #### TODO
 * Basic game data save/load
