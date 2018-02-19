@@ -2,9 +2,6 @@ extends Node
 
 var game_data = {}
 
-func _ready():
-    pass
-
 # Gets value from key value store
 #
 # key - Identifier of value stored in globally available dictionary
