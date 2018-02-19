@@ -12,7 +12,8 @@ This project was originally intended to be a personal starter for working on God
 * [Basic global game state & scene switcher](https://github.com/itemcrate/godot-boilerplate/blob/master/autoload/gameState.gd)
 * [Global game data dictionary to track information](https://github.com/itemcrate/godot-boilerplate/blob/master/autoload/gameData.gd)
 * [Bootstrap (Main Scene)](https://github.com/itemcrate/godot-boilerplate/blob/master/autoload/bootstrap/bootstrap.gd) scene with stubbed out resource loading thread.
-* Loading scene that doesn't look half bad. (Uses [League Mono](https://github.com/theleagueof/league-mono) - Regular)
+* A pretty crude placeholder [Title Scene](https://github.com/itemcrate/godot-boilerplate/tree/master/screens/title)
+* Loading Scene that doesn't look half bad. (Uses [League Mono](https://github.com/theleagueof/league-mono) - Regular)
 
 #### Loading Screen Demo - [[Source Code]](https://github.com/itemcrate/godot-boilerplate/tree/master/screens/loadingScreen)
 ![Loading Screen](https://i.gyazo.com/de6f097cad7180a2c6cc24560cb02356.gif)
