@@ -1,4 +1,4 @@
-# ![Item Crate Loves Godot](https://raw.githubusercontent.com/itemcrate/godot-boilerplate/master/assets/project-icon.png) Godot Boilerplate
+# ![Item Crate Loves Godot](https://raw.githubusercontent.com/itemcrate/godot-boilerplate/master/2d-project/assets/project-icon.png) Godot Boilerplate
 *A boilerplate project for Godot 3.x, includes a nice baseline to kick-start a 2D project.*
 
 ![From Pittsburgh With Love](https://img.shields.io/badge/from%20pittsburgh%20with-%E2%9D%A4-yellow.svg?style=for-the-badge)
