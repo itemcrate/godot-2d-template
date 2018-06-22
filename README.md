@@ -39,15 +39,13 @@ You can also [download] a zip (https://github.com/itemcrate/godot-boilerplate/ar
 #### Project setup
 A quick checklist once you start utilizing this project:
 1. Import project into Godot.
-2. Rename the project (Unless you happen to be making a game called `Godot Boilerplate`.)
+2. Rename the project (Unless you happen to be making a game called `2D Project`.)
 3. Change the project icon (I mean, you can totally use it too.)
-4. Decide if you want to keep the resource loading setup.
-    * (Optional) Customize the loading screen if you keep it.
-5. Do work.
+4. Do work.
 
 #### Don't keep Godot waiting
 Afterwards, you're free to do whatever you need to do. Do not feel obligated to keep
-any part of the code - that's the point. It's just a starting point so you can rewrite
+any part or structure of the code - that's the point. It's just a starting point so you can rewrite
 the entire thing if you want.
 
 ##### Useful links
