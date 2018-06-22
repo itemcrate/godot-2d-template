@@ -34,7 +34,7 @@ Alternatively, clone yourself a copy of the repo:
 git clone --depth 1 https://github.com/itemcrate/godot-boilerplate.git boilerplate
 ```
 Use a shallow clone to just get most recent code rather than all of the git history.
-You can also [download] a zip (https://github.com/itemcrate/godot-boilerplate/archive/master.zip) this repo and get the contents of the desired folder.
+You can also [download a zip](https://github.com/itemcrate/godot-boilerplate/archive/master.zip) this repo and get the contents of the desired folder.
 
 #### Project setup
 A quick checklist once you start utilizing this project:
