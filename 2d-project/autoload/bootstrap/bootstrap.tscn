@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://autoload/bootstrap/bootstrap.gd" type="Script" id=1]
-[ext_resource path="res://screens/loadingScreen/loadingScreen.tscn" type="PackedScene" id=2]
+[ext_resource path="res://screens/title/title.tscn" type="PackedScene" id=2]
 
 [node name="bootstrap" type="Control" index="0"]
 
