@@ -1,0 +1,20 @@
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Mono-specific ignores
+.mono/
+
+# System/tool-specific ignores
+.directory
+*~
+
+# General
+.DS_Store
+._*
+*~
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+logs/

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://autoload/bootstrap/bootstrap.gd" type="Script" id=1]
-[ext_resource path="res://screens/loadingScreen/loadingScreen.tscn" type="PackedScene" id=2]
+[ext_resource path="res://screens/title/title.tscn" type="PackedScene" id=2]
 
 [node name="bootstrap" type="Control" index="0"]
 
@@ -14,6 +14,7 @@ margin_top = -1.0
 margin_right = -1.0
 margin_bottom = -1.0
 rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
 mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1

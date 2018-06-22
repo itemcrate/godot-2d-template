@@ -8,19 +8,12 @@ This project was originally intended to be a personal starter for working on God
 
 ## Features
 * Organized directory structure & scripts with doc blocks.
+* A pretty good gitignore
 * Default `ui_left` `ui_right` `ui_up` `ui_down` inputs include WASD as optional arrows keys
 * [Basic global game state & scene switcher](https://github.com/itemcrate/godot-boilerplate/blob/master/autoload/gameState.gd)
 * [Global game data dictionary to track information](https://github.com/itemcrate/godot-boilerplate/blob/master/autoload/gameData.gd)
-* [Bootstrap (Main Scene)](https://github.com/itemcrate/godot-boilerplate/blob/master/autoload/bootstrap/bootstrap.gd) scene with stubbed out resource loading thread.
+* [Bootstrap (Main Scene)](https://github.com/itemcrate/godot-boilerplate/blob/master/autoload/bootstrap/bootstrap.gd)
 * A pretty crude placeholder [Title Scene](https://github.com/itemcrate/godot-boilerplate/tree/master/screens/title)
-* Loading Scene that doesn't look half bad. (Uses [League Mono](https://github.com/theleagueof/league-mono) - Regular)
-
-#### Loading Screen Demo - [[Source Code]](https://github.com/itemcrate/godot-boilerplate/tree/master/screens/loadingScreen)
-![Loading Screen](https://i.gyazo.com/de6f097cad7180a2c6cc24560cb02356.gif)
-
-#### TODO
-* Basic game data save/load
-* Audio setup
 
 ## Installation & Usage
 #### Requirements
@@ -28,27 +21,31 @@ This project was originally intended to be a personal starter for working on God
 * Prior knowledge of the Godot engine & GDScript.
 * Git (optional)
 
-#### Cloning
-To get started, clone yourself a copy of the repo:
+#### Gettin Started
+In your directory, run:
+
+```sh
+$ curl -fsSL https://github.com/itemcrate/godot-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 godot-boilerplate/2d-project
+```
+
+Alternatively, clone yourself a copy of the repo:
 
 ```sh
 git clone --depth 1 https://github.com/itemcrate/godot-boilerplate.git boilerplate
 ```
 Use a shallow clone to just get most recent code rather than all of the git history.
-You can also use the `Download Zip` option as well.
+You can also [download] a zip (https://github.com/itemcrate/godot-boilerplate/archive/master.zip) this repo and get the contents of the desired folder.
 
 #### Project setup
 A quick checklist once you start utilizing this project:
 1. Import project into Godot.
-2. Rename the project (Unless you happen to be making a game called `Godot Boilerplate`.)
+2. Rename the project (Unless you happen to be making a game called `2D Project`.)
 3. Change the project icon (I mean, you can totally use it too.)
-4. Decide if you want to keep the resource loading setup.
-    * (Optional) Customize the loading screen if you keep it.
-5. Do work.
+4. Do work.
 
 #### Don't keep Godot waiting
 Afterwards, you're free to do whatever you need to do. Do not feel obligated to keep
-any part of the code - that's the point. It's just a starting point so you can rewrite
+any part or structure of the code - that's the point. It's just a starting point so you can rewrite
 the entire thing if you want.
 
 ##### Useful links
@@ -61,13 +58,10 @@ the entire thing if you want.
 Michael Springer - [Twitter: @sprngr_](https://twitter.com/sprngr_) - [GitHub: sprngr](https://github.com/sprngr)
 
 ## Attribution
-No attribution is needed for the boilerplate itself, please be sure to attribute the packaged font
-if you do use it. If you do get use out of this project to help start your own Godot game, feel free
-to let me know - I'd love to see what you have built!
+No attribution is required for the boilerplate code.
+
+If you do get use out of this project to help start your own Godot game, feel free to let me know - I'd love to see what you have built!
 
 ## Licenses
 Boilerplate Code (This Project):
 [MIT](https://github.com/itemcrate/godot-boilerplate/LICENSE) - Michael Springer 2018
-
-[League Mono](https://github.com/theleagueof/league-mono):
-[OFL](https://github.com/theleagueof/league-mono/blob/master/ofl.markdown) - Tyler Finck 2017
