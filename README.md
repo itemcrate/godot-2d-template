@@ -6,14 +6,14 @@
 ## Purpose
 This project was originally intended to be a personal starter for working on Godot projects. During development it had occurred that others would be able to benefit from this as well. I intend for this to be a jumping off point and not a framework by providing just enough for anyone to use even if you just pull a bit of code from this into your own project.
 
-## Features
+## Features 
 * Organized directory structure & scripts with doc blocks.
 * A pretty good gitignore
 * Default `ui_left` `ui_right` `ui_up` `ui_down` inputs include WASD as optional arrows keys
-* [Basic global game state & scene switcher](https://github.com/itemcrate/godot-boilerplate/blob/master/autoload/gameState.gd)
-* [Global game data dictionary to track information](https://github.com/itemcrate/godot-boilerplate/blob/master/autoload/gameData.gd)
-* [Bootstrap (Main Scene)](https://github.com/itemcrate/godot-boilerplate/blob/master/autoload/bootstrap/bootstrap.gd)
-* A pretty crude placeholder [Title Scene](https://github.com/itemcrate/godot-boilerplate/tree/master/screens/title)
+* [Basic global game state & scene switcher](https://github.com/itemcrate/godot-boilerplate/blob/master/2d-project/autoload/gameState.gd)
+* [Global game data dictionary to track information](https://github.com/itemcrate/godot-boilerplate/blob/master/2d-project/autoload/gameData.gd)
+* [Bootstrap (Main Scene)](https://github.com/itemcrate/godot-boilerplate/blob/master/2d-project/autoload/bootstrap/bootstrap.gd)
+* A pretty crude placeholder [Title Scene](https://github.com/itemcrate/godot-boilerplate/tree/master/2d-project/screens/title)
 
 ## Installation & Usage
 #### Requirements
