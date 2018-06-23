@@ -2,8 +2,6 @@ extends Control
 
 export (PackedScene) var next_scene
 
-var next_scene_instance = null
-
 # Bootstrap data for the game, kick off loading screen
 func _ready():
     # Set a new random seed
