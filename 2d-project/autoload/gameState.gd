@@ -44,7 +44,7 @@ func set_scene(scene, preloaded = false):
 
     current_scene.queue_free()
     current_scene = new_scene.instance()
-    get_tree().get_root().add_child(current_scene)
+    get_tree().get_root().call_deferred("add_child", current_scene)
 
 # Setter for game_state, sets it to the new state value
 #
