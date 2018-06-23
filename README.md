@@ -25,7 +25,7 @@ This project was originally intended to be a personal starter for working on God
 In your directory, run:
 
 ```sh
-$ curl -fsSL https://github.com/itemcrate/godot-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 godot-boilerplate/2d-project
+$ curl -fsSL https://github.com/itemcrate/godot-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 godot-boilerplate-master/2d-project
 ```
 
 Alternatively, clone yourself a copy of the repo:
